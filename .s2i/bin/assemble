@@ -1,3 +1,10 @@
 #!/bin/bash
 
+set -e
+
+echo Current path: $(pwd)
+ls
+
+echo "---> Building Nightscout from source"
+
 npm install
