@@ -3,7 +3,7 @@
 set -e
 
 echo Current path: $(pwd)
-ls
+echo Contents: $(ls)
 
 echo "---> Building Nightscout from source"
 
